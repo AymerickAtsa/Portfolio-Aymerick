@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Yann Aymerick Portfolio</title>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="theme-color" content="#0a0a0a" />
+</head>
+<body>
+
+  <header id="top" class="nav-transparent">
+    <nav class="container nav">
+      <a class="logo" href="#top">
+        <svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="1" y="1" width="22" height="22" rx="4" fill="none" stroke="#FFD700" stroke-width="1.4"/>
+          <path d="M5 17 L12 7 L19 17" fill="none" stroke="#FFD700" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="logo-text">Yann Aymerick</span>
+      </a>
+
+      <ul class="nav-links" role="menubar" aria-label="Main navigation">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button id="navToggle" class="nav-toggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-inner container">
+        <div class="hero-text">
+          <h1 class="hero-title">Yann Aymerick</h1>
+          <p class="hero-subtitle">Aspiring Engineer | AI Enthusiast | App Developer | Video Editor</p>
+          <div class="hero-actions">
+            <a class="btn btn-gold" href="#projects">View My Work</a>
+            <a class="btn btn-outline" href="#contact">Contact Me</a>
+          </div>
+          <p class="hero-note">Level 3 Computer Science — The ICT University, Cameroon</p>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+
+          <div class="visual-placeholder">
+            <img src="images/profile.jpg" alt="Portrait placeholder" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="container section-inner">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-grid">
+          <div class="about-photo">
+            <img src="images/profile.jpg" alt="Yann Aymerick — profile photo placeholder">
+          </div>
+
+          <div class="about-content">
+            <p class="lead">
+              I’m a young and aspiring engineer constantly trying to be better. I’m passionate about AI, Video Editing, Photo Editing, and App Development.
+            </p>
+
+            <div class="skills-cards">
+              <article class="skill-card">
+                <svg class="icon" width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20" stroke="#FFD700" fill="none" stroke-linecap="round" stroke-width="1.4"/></svg>
+                <h4>AI</h4>
+                <p>ML models, data experiments & prototyping.</p>
+              </article>
+
+              <article class="skill-card">
+                <svg class="icon" width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h18" stroke="#FFD700" fill="none" stroke-linecap="round" stroke-width="1.4"/></svg>
+                <h4>Video Editing</h4>
+                <p>Cutting, color grading & motion graphics.</p>
+              </article>
+
+              <article class="skill-card">
+                <svg class="icon" width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="#FFD700" fill="none" stroke-width="1.4"/></svg>
+                <h4>Photo Editing</h4>
+                <p>Retouching & creative composites.</p>
+              </article>
+
+              <article class="skill-card">
+                <svg class="icon" width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="12" rx="2" stroke="#FFD700" fill="none" stroke-width="1.4"/></svg>
+                <h4>App Development</h4>
+                <p>Mobile & cross-platform app prototypes.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="projects" class="section projects">
+      <div class="container section-inner">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <div class="project-thumb">
+              <img src="images/project1.png" alt="Project 1 placeholder">
+            </div>
+            <div class="project-body">
+              <h3>Scholarly -- School Searching </h3>
+              <p>School search and compare Plateform</p>
+              <div class="project-actions">
+                              <div class="project-actions">
+                <button class="btn btn-small">View Details</button>
+                <button class="btn btn-ghost">Live Demo</button>
+              </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb">
+              <img src="images/project2.png" alt="Project 2 placeholder">
+            </div>
+            <div class="project-body">
+              <h3>DeepLearn -- AI Chatbot Learning Prototype</h3>
+              <p>Conversational assistant built as a proof-of-concept using local models.</p>
+                              <div class="project-actions">
+                <button class="btn btn-small">View Details</button>
+                <button class="btn btn-ghost">Live Demo</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb">
+              <img src="images/project3.png" alt="Project 3 placeholder">
+            </div>
+            <div class="project-body">
+              <h3>Homechef -- Recipe Website</h3>
+              <p>A Collection of Cameroon's Finest recipes.</p>
+              <div class="project-actions">
+                              <div class="project-actions">
+                <button class="btn btn-small">View Details</button>
+                <button class="btn btn-ghost">Live Demo</button>
+              </div>
+              </div>
+            </div>
+          </article>
+
+        
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="container section-inner">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-sub">Hands-on experience and comfort levels.</p>
+
+        <div class="skills-list">
+          <div class="skill">
+            <div class="skill-head">
+              <h4>Web Development</h4>
+              <span class="skill-percent">85%</span>
+            </div>
+            <div class="progress" data-percent="85" aria-hidden="true">
+              <div class="progress-bar"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-head">
+              <h4>Mobile App Development</h4>
+              <span class="skill-percent">78%</span>
+            </div>
+            <div class="progress" data-percent="78">
+              <div class="progress-bar"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-head">
+              <h4>Desktop Game Creation</h4>
+              <span class="skill-percent">65%</span>
+            </div>
+            <div class="progress" data-percent="65">
+              <div class="progress-bar"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-head">
+              <h4>2D & 3D Animation</h4>
+              <span class="skill-percent">72%</span>
+            </div>
+            <div class="progress" data-percent="72">
+              <div class="progress-bar"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container section-inner">
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Get in touch</h3>
+            <p>
+              <strong>Emails</strong><br>
+              <a href="mailto:yannaymerickatsa.atsa@ictuniversity.edu.cm">yannaymerickatsa.atsa@ictuniversity.edu.cm</a><br>
+              <a href="mailto:atsaaymerick@gmail.com">atsaaymerick@gmail.com</a>
+            </p>
+            <p><strong>Phone</strong><br>
+              <a href="tel:+237655353513">+237 655 353 513</a>
+            </p>
+
+            <div class="social">
+
+              <a href="#" class="social-link" aria-label="GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f1f1f1" stroke-width="1.6"><path d="M12 2C7 2 4 5.5 4 10.6c0 3.3 2.2 6.2 5.3 7.2.4.1.5-.2.5-.4 0-.2 0-.9 0-1.8-2.1.4-2.6-1-2.6-1-.4-1-1-1.3-1-1.3-.8-.6.1-.6.1-.6.9.1 1.4.9 1.4.9.7 1.3 1.8.9 2.2.7.1-.6.3-.9.6-1.1-1.7-.2-3.5-.8-3.5-3.6 0-.8.3-1.5.8-2-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6-.2 1.3-.3 1.9-.3s1.3.1 1.9.3c1.6-1 2.2-.8 2.2-.8.5 1.2.2 1.9.1 2.1.5.5.8 1.2.8 2 0 2.8-1.9 3.4-3.5 3.6.3.3.6.8.6 1.7 0 1.3 0 2.4 0 2.7 0 .2.1.5.6.4C17.8 16.8 20 13.9 20 10.6 20 5.5 17 2 12 2z"></path></svg>
+              </a>
+
+              <a href="https://github.com/AymerickAtsa/" class="social-link" aria-label="LinkedIn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f1f1f1" stroke-width="1.6"><rect x="2" y="2" width="20" height="20" rx="2"></rect><path d="M6 9v9"></path><circle cx="6" cy="6" r="1"></circle><path d="M10 13v5"></path><path d="M10 8v1"></path><path d="M14 13v5"></path><path d="M14 9v-1"></path></svg>
+              </a>
+            </div>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Scripts -->
+  <script src="script.js" defer></script>
+</body>
+</html>
